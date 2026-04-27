@@ -55,14 +55,14 @@ for i in {1..10}; do
   sshpass -p wrongpass ssh \
     -o StrictHostKeyChecking=no \
     -o UserKnownHostsFile=/dev/null \
-    -p 2222 root@<IP> "exit"
+    -p 22 root@<IP> "exit"
 done
 ```
 
 ### Successful Login
 
 ```bash
-ssh root@<IP> -p 2222
+ssh root@<IP> -p 22
 ```
 
 ### Post-Access Activity
