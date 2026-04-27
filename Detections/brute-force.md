@@ -28,6 +28,10 @@ Threshold
 ## Query
 
 ```text
-
 event.action : "cowrie.login.failed"
 Results aggregated by source.ip >= 25
+```
+---
+## Work in Progress
+
+need to tune the Detection logic to supress the lower severity alerts and only show the highest severity that applies to reduce noise of multiple alerts per brute force attempt
