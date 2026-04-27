@@ -2,23 +2,23 @@
 
 ## Overview
 
-Brief description of what the detection identifies.
+This Rule Detects commands that are most likely being used for malicious purposes
 
 ---
 
 ## Detection Logic
 
-Explain the logic in plain English.
+This detection uses a query to see if wget or curl or chmod are run on the machine
 
 ---
 
 ## Rule Type
 
-- Threshold / Custom Query / EQL Correlation
+- Custom Query 
 
 ---
 
 ## Query
 
 ```text
-<your query here>
+eventid: cowrie.command.input AND cowrie.command: (*wget* OR *curl* OR *chmod*)
