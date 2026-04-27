@@ -1,19 +1,19 @@
 ```mermaid
 flowchart LR
-    A[Attacker] --> B[Cowrie Honeypot (VPS)]
+    A[Attacker] --> B[Cowrie Honeypot VPS]
     B --> C[Elastic Agent]
     C --> D[Elasticsearch]
 
     D --> E[Detection Rules]
-    E --> F[Alerts (Elastic Security)]
+    E --> F[Alerts - Elastic Security]
 
-    F --> G[Analyst Investigation (Kibana Discover)]
+    F --> G[Analyst Investigation - Kibana Discover]
 
     subgraph Detection Types
-        E1[Threshold Rules<br>Brute Force]
-        E2[Correlation Rules<br>Brute Force → Success]
-        E3[Custom Query<br>Suspicious Commands]
-        E4[Behavioral Detection<br>Interactive Sessions]
+        E1[Threshold Rules - Brute Force]
+        E2[Correlation Rules - Brute Force to Success]
+        E3[Custom Query - Suspicious Commands]
+        E4[Behavioral Detection - Interactive Sessions]
     end
 
     E --> E1
@@ -21,5 +21,5 @@ flowchart LR
     E --> E3
     E --> E4
 
-    G --> H[Pivot on source.ip]
+    G --> H[Pivot on source IP]
     H --> I[Reconstruct Attack Timeline]
