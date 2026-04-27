@@ -80,10 +80,10 @@ chmod +x test.sh
 
 ## Detection Rules
 
-- [Brute Force Detection](detections/brute-force.md)
-- [Brute Force to Success (Correlation)](detections/brute-force-success-correlation.md)
-- [Suspicious Command Detection](detections/suspicious-commands.md)
-- [Interactive Session Detection](detections/interactive-session.md)
+- [Brute Force Detection](Detections/brute-force.md)
+- [Brute Force to Success (Correlation)](Detections/brute-force-success-correlation.md)
+- [Suspicious Command Detection](Detections/suspicious-commands.md)
+- [Interactive Session Detection](Detections/interactive-session.md)
 ---
 
 ## Attack Lifecycle Detection
