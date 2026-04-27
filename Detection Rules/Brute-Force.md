@@ -1,8 +1,8 @@
-# Detection: <Name>
+# Detection: Brute-Force Attempt
 
 ## Overview
 
-Brief description of what the detection identifies.
+Detects multiple failed logins within a certian time frame and broke up into 3 severtity catagories.
 
 ---
 
@@ -14,7 +14,7 @@ Explain the logic in plain English.
 
 ## Rule Type
 
-- Threshold / Custom Query / EQL Correlation
+- 
 
 ---
 
