@@ -8,11 +8,18 @@ Detects multiple failed logins within a certian time frame and broke up into 3 s
 
 ## Detection Logic
 
-Explain the logic in plain English.
+1. detects 5 login attempts within 5 minutes (low severity)
+2. detects 10 login attempts within 5 minutes (Medium severity)
+3. detects 20 login attempts within 5 minutes (High severity)
+
+
+
 
 ---
 
 ## Rule Type
+
+Threshold
 
 - 
 
@@ -21,4 +28,6 @@ Explain the logic in plain English.
 ## Query
 
 ```text
-<your query here>
+
+event.action : "cowrie.login.failed"
+Results aggregated by source.ip >= 25
