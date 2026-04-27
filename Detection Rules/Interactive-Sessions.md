@@ -1,7 +1,7 @@
 # Detection: <Name>
 
 ## Overview
-This Detection alers a session that looks like a human exploring the machine
+This Detection alerts a session that looks like a human exploring the machine
 
 
 ---
