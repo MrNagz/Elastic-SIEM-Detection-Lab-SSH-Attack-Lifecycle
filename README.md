@@ -129,6 +129,7 @@ flowchart LR
 ## Future Improvements
 
 * Expand command detection coverage
+* continue improving current detections to fine tune alerts to minimize noise
 * Improve honeypot realism (filesystem, artifacts)
 * Add enrichment (GeoIP, ASN)
 * Introduce additional behavioral detections
