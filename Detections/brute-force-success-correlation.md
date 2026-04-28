@@ -44,7 +44,9 @@ High
 ## MITRE ATT&CK Mapping
 
 - Tactic: Credential Access
-- Technique: T1110
+  Technique: T1110 Brute Force
+- Tactic: Initial Access
+  Technique: t1078 - Valid Accounts
 
 ---
 
@@ -56,7 +58,7 @@ Generated failed logins using sshpass, followed by a successful login.
 
 ## Example Alert
 
-![Correlation](../screenshots/correlation.png)
+![Correlation](../Screenshots/Discover-Auth.png)
 
 ---
 
