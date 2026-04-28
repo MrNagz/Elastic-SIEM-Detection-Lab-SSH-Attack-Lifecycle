@@ -17,6 +17,12 @@ This detection uses a query to see if wget or curl or chmod are run on the machi
 - Custom Query 
 
 ---
+## Mitre
+
+	•	Tactic: Command and Control
+	    Technique: T1105 – Ingress Tool Transfer
+	•	Tactic: Execution
+	   	Technique: T1059 – Command and Scripting Interpreter
 
 ## Query
 
