@@ -17,13 +17,6 @@ A sequence of failed logins followed by a successful login indicates a likely co
 EQL Correlation Rule
 
 ---
-## Mitre
-•	Tactic: Credential Access
- Brute Force
-•	Tactic: Initial Access
- Valid Accounts
-
----
 
 ## Query
 
