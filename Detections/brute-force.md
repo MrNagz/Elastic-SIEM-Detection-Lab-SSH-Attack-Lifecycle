@@ -21,7 +21,13 @@ Detects multiple failed logins within a certian time frame and broke up into 3 s
 
 Threshold
 
-- 
+---
+## Mitre
+
+Tactic:
+Credential Access
+•	Technique:
+Brute Force
 
 ---
 
