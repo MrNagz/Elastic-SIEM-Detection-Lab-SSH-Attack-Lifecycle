@@ -30,3 +30,30 @@ event.action: "cowrie.command.input" AND
   cowrie.command: *cd*
 )
 Results aggregated by source.ip >= 5
+```
+---
+## Investigation Guide
+
+1. Identify source IP associated with command activity
+
+2. Pivot on source.ip:
+   source.ip: "{{context.source.ip}}"
+
+3. Review full command history:
+  event.action: "cowrie.command.input" AND source.ip: "{{context.source.ip}}"
+
+4. Identify command patterns:
+
+  - System discovery (ls, pwd, whoami)
+  - File inspection (cat)
+  - Directory movement (cd)
+  
+5. Determine if behavior indicates interactive exploration
+
+6. Correlate with prior alerts:
+
+  - Brute force activity
+  - Successful login
+  - Suspicious command execution
+    
+7. Assess risk based on level of interaction and command diversity
