@@ -25,6 +25,7 @@ Threshold
 ## Mitre
 
 Tactic: Credential Access
+
 Technique: T1110 Brute Force
 
 ---
