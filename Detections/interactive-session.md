@@ -17,6 +17,17 @@ This detection looks for a few commands that are used by humans to navigate arou
 - Threshold
 
 ---
+## Mitre
+
+Tactic: Discovery
+
+Technique: T1082 – System Information Discovery
+
+Technique: T1083 – File and Directory Discovery
+
+Technique: T1033 – Account Discovery
+
+---
 
 ## Query
 
